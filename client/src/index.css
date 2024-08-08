@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*custom css for scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 0.55rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 0.55rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 0.55rem;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 0.55rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.tableHeader {
+  padding-right: 20px;
+}
+
+table tr {
+  white-space: nowrap;
+}
+
+.dropZone {
+  border: 2px dashed #c4c4c4;
+  border-radius: 4px;
+  min-height: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropZone:hover {
+  cursor: pointer;
+  transition: 500ms;
+  border: 2px dashed #1976d2;
+}
